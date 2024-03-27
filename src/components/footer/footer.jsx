@@ -34,7 +34,7 @@ function Footer() {
                 <FooterColumnH2>More</FooterColumnH2>
                 <FooterColumnP>Airlinefees</FooterColumnP>
                 <FooterColumnP>Airline</FooterColumnP>
-                <FooterColumnP>Low fare tips</FooterColumnP>
+                <FooterColumnP>Low fare tips</FooterColumnP> 
             </FooterColumnContainer>
 
             <div style={{display: "flex", flexDirection: "column", alignItems: "start", gap: "15px"}}>
@@ -46,7 +46,7 @@ function Footer() {
                 <FooterColumnP>Discover our app</FooterColumnP>
                 <div style={{display: "flex",  gap: "10px"}}>
                     <img src={googlePlay} alt="" />
-                    <img src={appleStore} alt="" />
+                    <img src={appleStore} alt="" /> 
                 </div>
             </div>
         </div>

@@ -43,7 +43,7 @@ function Home() {
             <Category4BoxesP>Built Wicket longer <br /> admire do barton <br /> vanity itself do in it.</Category4BoxesP>
           </CategoryBox>
 
-          <CategoryBox  style={{zIndex: "5",borderRadius: "36px", width: "250px",height: "300px", boxShadow: "0px 100px 80px 0px rgba(0, 0, 0, 0.02), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00)", marginRight: "-200px"}}>
+          <CategoryBox  style={{backgroundColor: "white", zIndex: "5",borderRadius: "36px", width: "250px",height: "300px", boxShadow: "0px 100px 80px 0px rgba(0, 0, 0, 0.02), 0px 64.815px 46.852px 0px rgba(0, 0, 0, 0.02), 0px 38.519px 25.481px 0px rgba(0, 0, 0, 0.01), 0px 20px 13px 0px rgba(0, 0, 0, 0.01), 0px 8.148px 6.519px 0px rgba(0, 0, 0, 0.01), 0px 1.852px 3.148px 0px rgba(0, 0, 0, 0.00)", marginRight: "-200px"}}>
             <img src={box2} alt="" style={{width: "100px"}}/>
             <Category4BoxesTitle>Best Flights </Category4BoxesTitle>
             <Category4BoxesP>Engrossed listening. <br /> Park gate sell they <br /> west hard for the.</Category4BoxesP>
@@ -184,4 +184,4 @@ function Home() {
   )
 }
 
-export default Home
+export default Home 
