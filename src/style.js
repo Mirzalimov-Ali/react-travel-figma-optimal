@@ -1,5 +1,7 @@
 import styled from "styled-components";
 
+import footerTopImg from './assets/footer-top.png'
+
 export const NavbarContainer = styled.div`
     display: flex;
     align-items: center;
@@ -126,4 +128,58 @@ export const TopDestinationsContainer = styled.div`
     justify-content: center;    
     /* gap: 50px; */
     margin-top: 50px;
+`
+
+export const LogoContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    margin-bottom: 100px;
+`
+
+export const FooterTop = styled.div`
+border-radius: 129px 20px 20px 20px;
+    opacity: 0.2;
+    background: var(--light-color, #DFD7F9);
+    width: 1170px;
+    height: 357px;
+    flex-shrink: 0;
+    position: relative;
+    z-index: -1;
+    margin-bottom: 100px;
+    h1 {
+        color: var(--TEXT-CLR, #5E6282);
+        text-align: center;
+        font-family: Poppins;
+        font-size: 33px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 54px;
+    }
+`
+
+export const FooterContainer = styled.div`
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 80px;
+`
+
+export const FooterColumnContainer = styled.div`
+    display: flex;
+    flex-direction: column;
+`
+
+export const FooterColumnH2 = styled.h2`
+    color: var(--black, #080809);
+    font-size: 21px;
+    font-weight: 700;
+    margin-bottom: 30px;
+`
+
+export const FooterColumnP = styled.p`
+    color: var(--TEXT-CLR, #5E6282);
+    font-size: 18px;
 `
